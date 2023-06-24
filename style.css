@@ -5,13 +5,23 @@
 
 }
 
+h2 {
+    font-size: 36px;
+    line-height: 43.2px;
+    font-weight: 900;
+}
+
 article {
     padding-bottom: 30px;
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1080px;
     margin: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 /**//**//**//**//**//**//**//**//**//**//**/
@@ -21,14 +31,14 @@ article {
 }
 
 .title h1 {
-    font-family: 'Roboto', sans-serif;
+
     font-size: 53px;
     line-height: 72px;
     font-weight: 900;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
@@ -46,10 +56,10 @@ p:not(:last-child) {
     padding-top: 25px;
     padding-left: 30px;
     padding-bottom: 30px;
+    border-radius: 10px;
 }
 
 .anchor-links h2 {
-    font-family: 'Roboto', sans-serif;
     font-size: 44px;
     line-height: 52.8px;
     font-weight: 700px;
@@ -58,7 +68,6 @@ p:not(:last-child) {
 .anchor-links ul a{
     list-style: decimal;
     color: #02535F;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
@@ -78,10 +87,6 @@ p:not(:last-child) {
 }
 
 .margin-next h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    line-height: 43.2px;
-    font-weight: 900;
     margin-bottom: 30px;
 }
 
@@ -113,13 +118,10 @@ p:not(:last-child) {
 
 .margin-last {
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .margin-last h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    line-height: 43.2px;
-    font-weight: 900;
     margin-bottom: 30px;
 }
 
@@ -137,15 +139,8 @@ p:not(:last-child) {
 
 /**//**//**//**//**//**//**//**//**//**//**/
 
-.last-elem {
-    margin-bottom: 50px;
-}
 
 .last-elem h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    line-height: 43.2px;
-    font-weight: 900;
     margin-bottom: 30px;
 }
 
@@ -164,7 +159,6 @@ p:not(:last-child) {
 }
 
 .itog h2 {
-    font-family: 'Roboto', sans-serif;
     font-size: 44px;
     line-height: 52.8px;
     font-weight: 700px;
@@ -173,7 +167,6 @@ p:not(:last-child) {
 
 .itog li {
     list-style: none;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
@@ -206,14 +199,12 @@ p:not(:last-child) {
 }
 
 .title h1 {
-    font-family: 'Roboto', sans-serif;
     font-size: 53px;
     line-height: 72px;
     font-weight: 900;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
@@ -234,7 +225,6 @@ p:not(:last-child) {
 }
 
 .anchor-links h2 {
-    font-family: 'Roboto', sans-serif;
     font-size: 44px;
     line-height: 52.8px;
     font-weight: 700px;
@@ -243,7 +233,6 @@ p:not(:last-child) {
 .anchor-links ul a{
     list-style: decimal;
     color: #02535F;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
@@ -262,12 +251,6 @@ p:not(:last-child) {
     padding-bottom: 25px;
 }
 
-.margin-next h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    line-height: 43.2px;
-    font-weight: 900;
-}
 
 .margin-next-block {
     padding-top: 30px;
@@ -293,7 +276,7 @@ p:not(:last-child) {
 }
 
 .margin-next-block img:not(:first-child){
-    margin-left: 30px;
+
 }
 
 /**//**//**//**//**//**//**//**//**//**//**/
@@ -303,10 +286,6 @@ p:not(:last-child) {
 }
 
 .margin-last h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    line-height: 43.2px;
-    font-weight: 900;
     margin-bottom: 30px;
 }
 
@@ -326,10 +305,6 @@ p:not(:last-child) {
 /**//**//**//**//**//**//**//**//**//**//**/
 
 .last-elem h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    line-height: 43.2px;
-    font-weight: 900;
     margin-bottom: 30px;
 }
 
@@ -346,11 +321,9 @@ p:not(:last-child) {
     padding-top: 25px;
     padding-left: 30px;
     padding-bottom: 30px;
-    margin-bottom: 50px;
 }
 
 .itog h2 {
-    font-family: 'Roboto', sans-serif;
     font-size: 44px;
     line-height: 52.8px;
     font-weight: 700px;
@@ -359,7 +332,6 @@ p:not(:last-child) {
 
 .itog li {
     list-style: none;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
